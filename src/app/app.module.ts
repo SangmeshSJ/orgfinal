@@ -3,10 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { OrgNavbarComponent } from './Components/org-navbar/org-navbar.component';
+import { OrgDashboardComponent } from './Components/org-dashboard/org-dashboard.component';
+import { OrgHomeComponent } from './Components/org-home/org-home.component';
+import { OrgAddjobComponent } from './Components/org-addjob/org-addjob.component';
+import { OrgProfileComponent } from './Components/org-profile/org-profile.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    OrgNavbarComponent,
+    OrgDashboardComponent,
+    OrgHomeComponent,
+    OrgAddjobComponent,
+    OrgProfileComponent
   ],
   imports: [
     BrowserModule,
