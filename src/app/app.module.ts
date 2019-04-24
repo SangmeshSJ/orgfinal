@@ -8,6 +8,7 @@ import { OrgDashboardComponent } from './Components/org-dashboard/org-dashboard.
 import { OrgHomeComponent } from './Components/org-home/org-home.component';
 import { OrgAddjobComponent } from './Components/org-addjob/org-addjob.component';
 import { OrgProfileComponent } from './Components/org-profile/org-profile.component';
+import { OrgNotificationComponent } from './Components/org-notification/org-notification.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { OrgProfileComponent } from './Components/org-profile/org-profile.compon
     OrgDashboardComponent,
     OrgHomeComponent,
     OrgAddjobComponent,
-    OrgProfileComponent
+    OrgProfileComponent,
+    OrgNotificationComponent
   ],
   imports: [
     BrowserModule,
